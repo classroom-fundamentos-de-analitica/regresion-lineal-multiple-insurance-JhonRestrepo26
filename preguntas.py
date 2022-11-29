@@ -27,7 +27,7 @@ def pregunta_01():
     X = df.copy()
 
     # Remueva la columna `charges` del DataFrame `X`.
-    X.pop(columns='charges')
+    X.pop(['charges'])
 
     # Retorne `X` y `y`
     return X, y
